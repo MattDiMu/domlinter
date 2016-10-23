@@ -1,0 +1,42 @@
+{
+  "name": "domlinter",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to give live feedback on the dom (created by HTML/JS) using CSS selectors.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "domlinter",
+    "dom",
+    "lint",
+    "hint",
+    "htmllint",
+    "htmlhint",
+    "html",
+    "check",
+    "validate",
+    "feedback",
+    "diagnostic"
+  ],
+  "author": "Matthias Müller <matthiasundmueller@gmail.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/domlinter",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/domlinter/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/domlinter",
+  "dependencies": {
+    "postcss": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
